@@ -1,0 +1,8 @@
+public Properties prop;
+	public FileInputStream fis;
+
+
+prop = new Properties();
+		fis = new FileInputStream(System.getProperty("user.dir")+"src\\test\\resources\\config.properties");
+		prop.load(fis);
+		
